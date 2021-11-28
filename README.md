@@ -1,5 +1,7 @@
 # Dockerized Valheim Server
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
 This repository provides a Dockerfile to build a containerized valheim server
 on Raspberry Pi aarch64. 
 
@@ -26,6 +28,12 @@ All worlds are saved in the container under /data. If the worlds should persist,
 | NAME | Valheim-$hostname | Name of the Valheom server. $hostname is replaced at runtime with the container hostname |
 | WORLD | ValheimWorld | Name of the Valheim world |
 | PASSWORD |  | Password to access the server. If omitted no password is set. |
+
+## Development
+
+If you are interested in contrinbuting to this project feel free to open a pull
+request or submit an issue. The commits on this project follow the conventional
+commit specification 1.0.0.
 
 ## License
 
